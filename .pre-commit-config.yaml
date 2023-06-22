@@ -1,6 +1,6 @@
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v3.4.0  # Reemplaza "v3.4.0" con la versión específica que deseas utilizar
+  rev: v3.4.0
   hooks:
     - id: trailing-whitespace
     - id: end-of-file-fixer
