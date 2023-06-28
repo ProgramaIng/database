@@ -1,21 +1,29 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title> Project One </title>
-        <link rell="stylesheet" href="proyecto1/styles.css" />     
-    </head>    
-    <body>
-        <div id="container"> </div>
-            <div id="cabecera"> </div>
-               DATABASE
-            <div id="post"> </div>
-                <h1> Database Project One </h1>
-                <p> You can use it with any three variables you want </p>
-                <script> 
-                let.variable1 = "" 
-                variable1 = prompt ( " Enter variable No. 1 " )
-                alert ( "Variable No.1 you entered is " + variable1)
+  <head>
+    <meta charset="utf-8"/>
+    <title>PROJECT ONE</title>
+    <script src="./Proyecto1.js"></script> 
+    <link rel= "stylesheet" href="./styles.css">     
+  </head>    
+    
+  <body>
+    <section id="EnterVariables">
+    <h1 id="tittle" class="tittle"> DATABASE PROJECT ONE </h1>
+    
+    <p class="paragraph"> You can use it with any three variables you want </p>
+    
+    <div class="variables">
+      
+      <label class="enter-the-variable" for="variable1"> Variable One </label>  
+      <input name="variable" id="variable1" /> 
 
-                </script>
+      <label class="enter-the-variable" for="variable2"> Variable Two </label>  
+      <input name="variable" id="variable2" /> 
 
-    </body>
+      <label class="enter-the-variable" for="variable3"> Variable Three </label> 
+      <input name="variable" id="variable3" /> 
+    </div>
+
+  </body>
 </html>
